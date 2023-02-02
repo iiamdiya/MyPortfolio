@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+    section {
+        overflow: hidden;
+    }
+}
+
 section {
     flex: 1 0 auto;
     position: relative;
@@ -5,6 +11,7 @@ section {
     -webkit-transition: all .5s ease-in;
     -o-transition: all .5s ease-in;
     transition: all .5s ease-in;
+    height: 400px;
 }
 
 .who_am_I {
@@ -39,8 +46,9 @@ section {
 
 @media (max-width:991.98px) {
     .intro_sec {
-        display: block;
-        height: auto!important;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20%;
     }
 }
 
@@ -232,3 +240,4 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+
